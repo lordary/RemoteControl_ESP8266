@@ -1,7 +1,7 @@
 
 wifi.setmode(wifi.STATION)
-wifi.sta.config("","")
-print(wifi.sta.getip())
+wifi.sta.config("","")  -- Enter the WIFI SSID and the password
+print(wifi.sta.getip())   
 led1 = 5
 led2 = 2
 led3 = 1
